@@ -15,6 +15,12 @@
 /obj/item/rogueweapon/sword/rapier/dec,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"be" = (
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonentry4"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "bn" = (
 /obj/structure/fluff/walldeco/chains,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
@@ -29,6 +35,13 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/mountains/decap)
+"bt" = (
+/obj/structure/lever/wall{
+	pixel_x = 24;
+	redstone_id = "dragonentry3"
+	},
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "bA" = (
 /obj/structure/closet/crate/chest/lootbox,
@@ -225,6 +238,12 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
+"hI" = (
+/obj/structure/lever{
+	redstone_id = "dragonexit"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "hW" = (
 /turf/closed/wall/mineral/rogue/stonebrick,
 /area/rogue/outdoors/mountains/decap)
@@ -288,6 +307,11 @@
 /obj/structure/fermenting_barrel/random/water,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"kU" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "kW" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/rogue/dirt,
@@ -299,6 +323,10 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/medical,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"lb" = (
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "lg" = (
 /obj/machinery/light/rogue/wallfire{
 	pixel_y = 32
@@ -337,6 +365,12 @@
 /obj/item/roguestatue/gold/loot,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/under/cave)
+"ni" = (
+/obj/structure/fluff/walldeco/chains,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "nm" = (
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/rogue/cobble,
@@ -393,6 +427,10 @@
 /turf/closed/wall/mineral/rogue/decostone/mossy/red/end{
 	dir = 4
 	},
+/area/rogue/outdoors/mountains/decap)
+"pN" = (
+/obj/item/ingot/gold,
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "pS" = (
 /turf/open/floor/rogue/blocks,
@@ -547,6 +585,16 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/mountains)
+"ve" = (
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonentry2"
+	},
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonentry4";
+	signal_enabled = 1
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "vg" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border"
@@ -579,6 +627,14 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/dungeon1)
+"vV" = (
+/obj/structure/lever/wall{
+	pixel_x = -24;
+	redstone_id = "dragonentry4";
+	dir = 1
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "vW" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -607,12 +663,24 @@
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/dungeon1)
+"wN" = (
+/obj/structure/fluff/walldeco/chains,
+/turf/closed/wall/mineral/rogue/craftstone,
+/area/rogue/outdoors/mountains/decap)
 "xl" = (
 /turf/open/lava,
 /area/rogue/under/cave/dungeon1)
 "xr" = (
 /obj/effect/decal/remains/bigrat,
 /turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/mountains/decap)
+"xx" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "xz" = (
 /obj/structure/rack/rogue,
@@ -624,6 +692,12 @@
 /obj/item/reagent_containers/glass/bottle/rogue/manapot,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"xD" = (
+/obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "xH" = (
 /obj/structure/lever/wall{
 	redstone_id = "prisongate2";
@@ -695,6 +769,18 @@
 "zT" = (
 /obj/structure/closet/crate/chest/lootbox,
 /obj/item/riddleofsteel,
+/obj/item/roguegem/random,
+/obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguestatue/gold,
+/obj/item/roguestatue/silver,
+/obj/item/ingot/gold,
+/obj/item/ingot/gold,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "zV" = (
@@ -715,6 +801,19 @@
 "Af" = (
 /obj/structure/closet/crate/chest/lootbox,
 /obj/item/scomstone,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/spells,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguestatue/gold/loot,
+/obj/item/roguestatue/silver,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
+"Ar" = (
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonexit"
+	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "At" = (
@@ -774,6 +873,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/dungeon1)
+"CP" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "CX" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/dirt,
@@ -810,6 +913,14 @@
 "Ed" = (
 /obj/structure/closet/crate/chest/lootbox,
 /obj/item/roguecoin/gold/pile,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/spells,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguestatue/gold/loot,
+/obj/item/roguestatue/gold/loot,
+/obj/item/roguestatue/silver,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "Ee" = (
@@ -822,6 +933,12 @@
 /obj/structure/bed/rogue/shit,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
+"Ei" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "Er" = (
 /obj/structure/bookcase{
 	name = "inconspicuous bookcase"
@@ -919,6 +1036,7 @@
 	retreat_health = 0.1;
 	faction = list("wolfs")
 	},
+/obj/item/roguecoin/gold/pile,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "Hh" = (
@@ -1054,6 +1172,11 @@
 /obj/item/reagent_containers/glass/cup/golden,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"Lm" = (
+/obj/item/roguecoin/gold/pile,
+/obj/item/dragons_blood,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "Lo" = (
 /obj/structure/stairs/stone/d{
 	dir = 4
@@ -1071,6 +1194,12 @@
 "LJ" = (
 /obj/structure/fluff/railing/fence,
 /turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/mountains/decap)
+"Mu" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "MM" = (
 /obj/structure/bookcase,
@@ -1113,6 +1242,13 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/mountains)
+"NM" = (
+/obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "NN" = (
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/dungeon1)
@@ -1245,6 +1381,10 @@
 /obj/structure/bars/passage/steel{
 	redstone_id = "dragonentry1"
 	},
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonentry3";
+	signal_enabled = 1
+	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "Rw" = (
@@ -1255,6 +1395,13 @@
 /area/rogue/outdoors/dungeon1)
 "Ry" = (
 /turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/mountains/decap)
+"Sb" = (
+/obj/item/natural/bone,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/ingot/gold,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "Sr" = (
 /obj/structure/fluff/walldeco/rpainting,
@@ -1274,6 +1421,20 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/dungeon1)
+"SV" = (
+/obj/structure/closet/crate/chest/lootbox,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguestatue/gold,
+/obj/item/roguestatue/silver,
+/obj/item/ingot/gold,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "Tj" = (
 /obj/machinery/light/rogue/torchholder/r,
 /turf/open/floor/rogue/naturalstone,
@@ -1358,6 +1519,12 @@
 /obj/item/roguegem/random,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/dungeon1)
+"Wd" = (
+/obj/structure/bars/passage/steel{
+	redstone_id = "dragonentry3"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "Wl" = (
 /turf/open/floor/rogue/concrete,
 /area/rogue/outdoors/mountains/decap)
@@ -1391,6 +1558,16 @@
 /obj/structure/mineral_door/bars,
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/mountains/decap)
+"Yf" = (
+/obj/structure/fluff/walldeco/chains,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/ingot/gold,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains/decap)
 "YS" = (
 /obj/structure/chair/wood/rogue,
@@ -1427,6 +1604,12 @@
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/mountains)
+"Zz" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains/decap)
 "ZC" = (
 /obj/structure/fluff/walldeco/painting/queen,
 /turf/closed/wall/mineral/rogue/stonebrick,
@@ -10168,7 +10351,7 @@ lv
 lv
 lv
 gb
-Dq
+bt
 Dq
 Dq
 Dq
@@ -10298,10 +10481,10 @@ gb
 gb
 gb
 gb
-mx
-Dq
-Dq
-Dq
+wN
+Wd
+Of
+gb
 gb
 gb
 gb
@@ -10811,8 +10994,8 @@ gb
 gb
 gb
 gb
-mx
-Dq
+Yf
+xD
 gb
 gb
 AX
@@ -10941,8 +11124,8 @@ zT
 Ed
 wu
 wu
-Dq
-tv
+CP
+Sb
 gb
 gb
 Dq
@@ -11066,12 +11249,12 @@ gb
 Dq
 Dq
 Dq
-Dq
-Dq
-Dq
+Lm
+kU
+Mu
 wu
 wu
-Dq
+NM
 Hb
 At
 At
@@ -11087,7 +11270,7 @@ OJ
 Dq
 Dq
 Dq
-gb
+Ar
 Dq
 HW
 pd
@@ -11196,12 +11379,12 @@ gb
 Dq
 Dq
 Dq
-Dq
-Dq
-Dq
+lb
+Zz
+xx
 wu
 wu
-Dq
+pN
 Dq
 At
 At
@@ -11217,7 +11400,7 @@ Dq
 Dq
 Dq
 Dq
-gb
+Ar
 Dq
 HW
 pd
@@ -11326,13 +11509,13 @@ gb
 wu
 wu
 wu
-ta
+hI
 Af
-Ed
+SV
 wu
 wu
-Dq
-Dq
+Ei
+Zz
 gb
 gb
 Dq
@@ -11461,8 +11644,8 @@ gb
 gb
 gb
 gb
-mx
-Dq
+ni
+NM
 gb
 gb
 AX
@@ -11988,10 +12171,10 @@ gb
 gb
 gb
 gb
-mx
-Dq
-Dq
-Dq
+wN
+be
+be
+gb
 gb
 gb
 gb
@@ -12118,7 +12301,7 @@ lv
 lv
 lv
 gb
-Dq
+PC
 Dq
 Dq
 Dq
@@ -12249,8 +12432,8 @@ HW
 HW
 gb
 gb
-Of
-Of
+ve
+ve
 gb
 gb
 HW
@@ -12378,7 +12561,7 @@ HW
 HW
 HW
 HW
-PC
+vV
 Dq
 Dq
 Dq

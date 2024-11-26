@@ -10,7 +10,6 @@
 	emote_see = null
 	speak_chance = 1
 	turns_per_move = 3
-	speak_emote = list("growls")
 	see_in_dark = 6
 	move_to_delay = 3
 	base_intents = list(/datum/intent/simple/bite)
@@ -38,13 +37,14 @@
 	STASPD = 13
 	deaggroprob = 0
 	defprob = 40
-	defdrain = 10
+	defdrain = 15
 	del_on_deaggro = 9999 SECONDS
 	retreat_health = 0.3
 	food = 0
 	attack_sound = list('sound/combat/hits/blunt/genblunt (1).ogg','sound/combat/hits/blunt/genblunt (2).ogg','sound/combat/hits/blunt/genblunt (3).ogg','sound/combat/hits/blunt/flailhit.ogg')
 	dodgetime = 30
 	aggressive = 1
+	pixel_x = -16
 //	stat_attack = UNCONSCIOUS
 
 /mob/living/simple_animal/hostile/retaliate/rogue/dragon/Initialize()
@@ -155,19 +155,18 @@
 /obj/projectile/magic/aoe/dragon_breath
     name = "fire hairball"
     icon_state = "fireball"
-    damage = 10
     damage_type = BRUTE
     nodamage = FALSE
     light_color = "#f8af07"
     light_range = 2
-    damage = 40
+    damage = 30
     flag = "magic"
     hitsound = 'sound/blank.ogg'
 
     //explosion values
     var/exp_heavy = 0
-    var/exp_light = 2
-    var/exp_flash = 3
+    var/exp_light = 1
+    var/exp_flash = 5
     var/exp_fire = 3
 
 
@@ -190,11 +189,17 @@
         M.throw_at(throw_target, exp_light, EXPLOSION_THROW_SPEED)
     
 /mob/living/simple_animal/hostile/retaliate/rogue/dragon/broodmother
-	health = 1600
-	maxHealth = 1600
+	health = 2000
+	maxHealth = 2000
 	name = "dragon broodmother"
 	projectiletype = /obj/projectile/magic/aoe/dragon_breath
 	projectilesound = 'sound/blank.ogg'
 	ranged = 1
 	ranged_message = "breathes fire"
-	ranged_cooldown_time = 20 SECONDS
+	ranged_cooldown_time = 45 SECONDS
+
+/mob/living/simple_animal/hostile/retaliate/rogue/dragon/broodmother/Life()
+	. = ..()
+	//Bleed immunity to prevent cheese
+	blood_volume = BLOOD_VOLUME_NORMAL
+	bleed_rate = 0
