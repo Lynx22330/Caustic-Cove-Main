@@ -52,3 +52,29 @@
 	event -= cb
 	qdel(cb)
 	return TRUE
+
+/////////////////////////////
+//STORYTELLER RELATED PROCS//
+/////////////////////////////
+
+//Called when the tick is equal to the startWhen variable.
+//Allows you to start before announcing or vice versa.
+//Only called once.
+/datum/events/proc/start()//Called when the tick is equal to the startWhen variable.
+
+//Checks if the event can fire now.
+//This should always be called before paying for the event
+/datum/events/proc/can_trigger()
+	return TRUE
+
+//Called first before processing.
+//Allows you to setup your event, such as randomly
+//setting the startWhen and or announceWhen variables.
+//Only called once.
+/datum/events/proc/setup()
+	return
+
+/datum/events/proc/Initialize()
+	// event needs to be responsible for this, as stuff like APLUs currently make their own events for curious reasons
+	SSevents.running += src
+	setup()

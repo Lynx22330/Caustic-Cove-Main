@@ -232,6 +232,10 @@ SUBSYSTEM_DEF(ticker)
 				Master.SetRunLevel(RUNLEVEL_LOBBY)
 
 		if(GAME_STATE_PLAYING)
+			//Handle storyteller.
+			GLOB.storyteller.Process()
+			GLOB.storyteller.process_events()
+
 			mode.process(wait * 0.1)
 			check_queue()
 			check_maprotate()
