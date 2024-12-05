@@ -117,7 +117,7 @@
 	return FALSE
 
 
-/datum/storyevent/Process()
+/datum/storyevent/proc/Process()
 	return
 
 /datum/storyevent/proc/is_ended()

@@ -308,3 +308,10 @@
 	"}
 
 	usr << browse(dat, "window=players;size=600x480")
+	
+/datum/admins/proc/storyteller_panel()
+	var/datum/storyteller/ST = get_storyteller()
+	if(ST)
+		ST.storyteller_panel()
+	else
+		to_chat(usr, span_warning("There is no storyteller."))

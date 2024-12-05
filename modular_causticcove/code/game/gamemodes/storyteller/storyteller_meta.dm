@@ -13,9 +13,7 @@ var/global/list/storyevents
 var/global/list/scheduled_events = list()
 
 /proc/fill_storyevents_list()
-	var/list/base_types = list(/datum/storyevent,
-	/datum/storyevent/roleset,
-	/datum/storyevent/roleset/faction)
+	var/list/base_types = list(/datum/storyevent)
 	// Initialized here because we can't control when globals initialize
 	storyevents = list()
 	for(var/type in typesof(/datum/storyevent)-base_types)

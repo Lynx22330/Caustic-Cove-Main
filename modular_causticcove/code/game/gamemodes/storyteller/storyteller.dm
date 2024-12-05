@@ -5,9 +5,7 @@ GLOBAL_VAR_INIT(mob_count, 0) //In order to calculate how many mobs exist at a g
 /datum/storyteller
 	//Strings
 	var/config_tag
-	var/name = "Storyteller"/////////////////////
-///Points Handling///
-/////////////////////
+	var/name = "Storyteller"
 	var/welcome = "Welcome."
 	var/description = "You shouldn't be seeing this."
 
@@ -114,7 +112,7 @@ GLOBAL_VAR_INIT(mob_count, 0) //In order to calculate how many mobs exist at a g
 ////MAIN PROCESS//
 //////////////////
 
-/datum/storyteller/Process()
+/datum/storyteller/proc/Process()
 	if(can_tick())
 			//Update these things so we can accurately select events
 		update_role_count()

@@ -34,6 +34,9 @@ GLOBAL_PROTECT(admin_verbs_default)
 	// RATWOOD MODULAR START
 	/client/proc/bunker_bypass,
 	// RATWOOD MODULAR END
+	//CAUSTIC COVE MODULAR
+	/client/proc/storyteller_panel
+	//CAUSTIC COVE MODULAR END
 	)
 GLOBAL_LIST_INIT(admin_verbs_admin, world.AVerbsAdmin())
 GLOBAL_PROTECT(admin_verbs_admin)
@@ -860,3 +863,9 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 		message_admins("[src] has amended [book_title]'s [amend_type] to [amend_text]")
 	else
 		to_chat(src, span_notice("Either the book file doesn't exist or you have failed to type something in properly (you can look up the file name by the verb 'database book file names'"))
+
+/client/proc/storyteller_panel()
+	set name = "Storyteller Panel"
+	set category = "Admin"
+	if(holder)
+		holder.storyteller_panel()

@@ -3669,9 +3669,9 @@
 #include "modular_hearthstone\code\modules\spells\roguetown\spells5e\cantrips5e.dm"
 #include "modular_hearthstone\code\modules\spells\roguetown\spells5e\spellscrolls.dm"
 #include "modular_causticcove\code\__DEFINES\storyteller_defines.dm"
-#include "modular_causticcove\code\game\gamemodes\storyteller\storyteller.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyteller_meta.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyteller_helpers.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyteller_print.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyevent.dm"
+#include "modular_causticcove\code\game\gamemodes\storyteller\storyteller.dm"
 // END_INCLUDE
