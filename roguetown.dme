@@ -3674,4 +3674,5 @@
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyteller_print.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyevent.dm"
 #include "modular_causticcove\code\game\gamemodes\storyteller\storyteller.dm"
+#include "modular_causticcove\code\game\gamemodes\storyteller\storytellers\guide.dm"
 // END_INCLUDE

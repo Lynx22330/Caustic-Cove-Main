@@ -599,6 +599,7 @@
 		return
 
 /obj/item/clothing/neck/roguetown/psicross/eldritch/dropped(mob/living/user)
+	. = ..()
 	if(active_item)
 		to_chat(user, span_notice("Your stroke of luck has ended."))
 		user.change_stat("fortune", -3)
